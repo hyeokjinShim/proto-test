@@ -1,0 +1,16 @@
+{
+  "name": "protobuf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proto-codegen": "protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=. ./test_01.proto"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@protobuf-ts/plugin": "^2.9.1",
+    "ts-proto": "^1.164.0"
+  }
+}
